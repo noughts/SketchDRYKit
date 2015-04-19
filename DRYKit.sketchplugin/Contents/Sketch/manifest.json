@@ -1,0 +1,23 @@
+{
+  "author" : "noughts",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "DRYKit",
+      "identifier" : "helloworld"
+    },
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "helloworld",
+    ],
+  },
+  "identifier" : "jp.noughts.sketch.drykit",
+  "version" : "1.0",
+  "description" : "Example Sketch Plugin using resources from within the bundle and a library script.",
+  "authorEmail" : "mail@example.com",
+  "name" : "DRYKit"
+}
